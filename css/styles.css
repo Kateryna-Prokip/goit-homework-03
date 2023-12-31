@@ -49,7 +49,7 @@ img {
 }
 
 .container {
-    max-width: 1128px;
+    width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -69,6 +69,7 @@ img {
 
 .header-container {
     display: flex;
+    padding: 24px 0
 }
 
 .logo {
@@ -81,8 +82,7 @@ img {
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    margin: 90px;
-
+    margin-right: 76px
 }
 
 .logo-part {
