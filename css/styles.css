@@ -136,9 +136,9 @@ img {
 
 .hero-container {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 292px;
+
     margin: 0 auto;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -192,6 +192,8 @@ img {
     padding-bottom: 120px;
 }
 
+
+
 .features-list {
     display: flex;
     gap: 24px;
@@ -221,6 +223,11 @@ img {
 /* --------------------Features---------------------------- */
 
 /* --------------------Our team---------------------------- */
+.container-team {
+    padding: 32px 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
 
 .hero-team {
     background: #F4F4FD;
@@ -255,11 +262,7 @@ img {
 
 }
 
-.container-team {
-    padding: 32px 0;
-    margin-bottom: 8px;
-    text-align: center;
-}
+
 
 
 
@@ -293,15 +296,14 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px 24px;
-
+    row-gap: 48px;
+    margin-bottom: 72px;
 }
 
 .portfolio-item {
