@@ -250,14 +250,15 @@ img {
 .team-list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 8px;
     gap: 24px;
 
 }
 
 .team-item {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
     width: calc((100% - 72px) / 4);
+    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -306,7 +307,7 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
     margin-bottom: 72px;
 }
 
@@ -342,9 +343,9 @@ img {
 .footer {
     background: #2E2F42;
     padding: 100px 0;
-    display: inline-block;
-    margin-bottom: 16px
+
 }
+
 
 .footer-logo {
     color: #F4F4FD;
@@ -354,6 +355,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-part-logo {
