@@ -41,7 +41,12 @@ img {
 
 
 .visually-hidden {
-
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -190,7 +195,6 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 
 
 .features-list {
@@ -355,8 +359,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
+
 }
 
 .footer-part-logo {
@@ -367,6 +370,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
 .footer-text {
