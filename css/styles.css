@@ -151,6 +151,7 @@ img {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto;
+
 }
 
 .hero-button {
@@ -158,6 +159,7 @@ img {
     background-color: #4D5AE5;
     color: #FFF;
     font-family: inherit;
+    min-width: 169px;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -193,6 +195,7 @@ img {
 .features-list {
     display: flex;
     gap: 24px;
+    margin-bottom: 8px
 }
 
 .features-item {
@@ -218,9 +221,10 @@ img {
 /* --------------------Features---------------------------- */
 
 /* --------------------Our team---------------------------- */
+
 .hero-team {
     background: #F4F4FD;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 
@@ -233,19 +237,31 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    display: block;
 }
 
 .team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+
 }
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc ((100% - 24px * 3) /4);
     padding-bottom: 32px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
+
+.container-team {
+    padding: 32px 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
 
 .team-img {}
 
