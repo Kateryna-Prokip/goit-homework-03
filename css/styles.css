@@ -55,8 +55,8 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -251,6 +251,7 @@ img {
     text-transform: capitalize;
     display: block;
     margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -282,6 +283,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-text {
