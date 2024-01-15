@@ -231,6 +231,19 @@ address {
     letter-spacing: 0.02em;
 }
 
+.features-strategy {
+    display: flex;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+
+
+}
+
 /* --------------------Features---------------------------- */
 
 /* --------------------Our team---------------------------- */
@@ -276,6 +289,7 @@ address {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -300,6 +314,21 @@ address {
     letter-spacing: 0.02em;
     gap: 8px;
 }
+
+
+.team-icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.link-item {}
 
 /* --------------------Our team---------------------------- */
 /* --------------------Our portfolio---------------------------- */
@@ -329,6 +358,9 @@ address {
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
+    position: relative;
+    overflow: hidden;
+
 }
 
 .portfolio-item-box {
@@ -354,6 +386,29 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.overlay {
+    padding-top: 40px;
+    background: #4D5AE5;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5px;
+    letter-spacing: 0.02px;
+    position: transform;
+
+
+
+}
+
+.overlay:hover {
+    transform: translateY(0);
+    border: 1px solid #F4F4FD;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 /* --------------------Our portfolio---------------------------- */
@@ -398,6 +453,8 @@ address {
     letter-spacing: 0.02em;
 }
 
+.footer-fb {}
+
 .footer-fb-text {
     display: flex;
     color: #FFF;
@@ -407,33 +464,34 @@ address {
     line-height: 1.5px;
     letter-spacing: 0.02px;
     justify-content: center;
-    margin-bottom: 16px;
+
+
 }
 
 .footer-list {
     display: flex;
     gap: 16px;
-
 }
 
 .footer-item {
-    width: 40px;
-    height: 40px;
+    display: flex;
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: flex;
+
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social--item:hover,
-.social--item:focus {
+.footer-item:hover,
+.social-item:focus {
     background-color: #31D0AA;
 }
 
 .social-link {
     margin-left: 120px;
 }
+
+.footer-max {}
