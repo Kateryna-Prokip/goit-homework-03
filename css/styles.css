@@ -470,7 +470,10 @@ address {
 
 }
 
-.footer-container {}
+.container {
+    display: flex;
+
+}
 
 
 .footer-logo {
@@ -519,8 +522,6 @@ address {
     font-weight: 500;
     line-height: 1.5px;
     letter-spacing: 0.02px;
-
-
 
 }
 
